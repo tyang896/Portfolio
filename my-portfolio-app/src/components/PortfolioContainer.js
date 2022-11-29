@@ -6,7 +6,7 @@ export default function PortfolioContainer() {
     return (
         <div>
             <Header />
-            <Footer />
+            <Footer className="personal-info"/>
         </div>
     )
 }

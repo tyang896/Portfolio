@@ -1,21 +1,23 @@
 import React from 'react';
+import Project from '../Project'
 
+//TODO: Import Project.js file
+//TODO: 
 export default function Portfolio() {
-  return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
-  );
+    const egaungal = {
+        title: 'Egaungal',
+        image: 'images/egaugnal-bg-2.jpg',
+        link: 'https://egaugnal.herokuapp.com/',
+        programs: 'Full Stack App',
+        altDesc: 'Picture of globe'
+    }
+    return (
+        <div>
+            <h1 className="title">Portfolio Page</h1>
+            <div className="projects">
+            <Project title={egaungal.title } image={egaungal.image } link={egaungal.link } programs={egaungal.programs} altDesc={egaungal.altDesc } />
+            </div>
+
+        </div>
+    );
 }

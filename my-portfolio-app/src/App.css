@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,16 +35,141 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* header {
+  display: flex;
+} */
+:root{
+  --header-color: rgb(122, 138, 174);
+  --light: white;
+  --line-break: rgb(64, 64, 64);
+  --dark: rgb(15 54 69);
 }
 
-header {
-  display: flex;
+.title {
+  color: var(--light);
+}
+
+body{
+  background-color: rgb(239, 239, 239);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+p{
+  font-size: small;
+  color: var(--light)
+}
+
+.header{
+  /* position: fixed; */
+  width: 100%;
+  z-index: 1;
+  background-color: var(--dark);
+}
+
+.title-name {
+  width: 100%;
+  background-image: url("../public/images/pexels-pixabay-235994.jpg");
+  background-color: white;/*Displays a blank white image if the picture does not appear*/
+  /* background-size: cover; */
+}
+
+#profile-pic{
+  /* position: absolute; */
+  left: 35%;
+  bottom: 0%;
+  border: var(--dark) solid 5px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  background-image: url("../public/images/IMG_6790.JPG");
+  background-color: white;
+  background-size: cover;
+  background-position: 60%; 
 }
 
 h1.title-name {
   justify-content: start;
 }
 
-Navigation {
+/* Navigation {
   justify-content: end;
+} */
+
+/*positioning for the navigation bar*/
+nav{
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+
+.nav-tabs {
+  background-color: white;
+}
+
+/*repositions the */
+ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+span.programs{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:x-small;
+}
+
+/*Image styling for the other applications*/
+img.application{
+  height: 200px;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+div.projects{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*---Contact Section---*/
+section.contact{
+    margin-bottom: 16px;
+}
+
+/*Styling and spacing for the contact section*/
+div.personal-info{
+  border-left: 2px solid var(--line-break);
+  padding-left: 20px;
+  padding-top: 1.5%;
+  width: 100%;
+  border-width: medium;
+}
+
+/*Styling for the links*/
+div.personal-info a{
+  color: black;
+  text-align: center;
+}
+
+div.personal-info a:hover{
+  color: gray;
+}
+/*Spacing for the different links*/
+div.personal-info ul{
+  display: flex;
+  justify-content: space-evenly;
 }
