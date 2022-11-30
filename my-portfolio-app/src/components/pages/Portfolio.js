@@ -47,7 +47,7 @@ export default function Portfolio() {
     const dailyScheduler = {
         title: 'Daily Scheduler',
         image: 'images/organizer-g78abf449a_1920.jpg',
-        link: 'https://github.com/tyang896/daily-scheduler.git',
+        link: 'https://tyang896.github.io/daily-scheduler/',
         programs: 'HTML/CSS/Javascript',
         altDesc: 'Picture of flower and planner'
     }
