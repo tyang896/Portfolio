@@ -32,7 +32,7 @@ function Navigation() {
                         onClick={() => handlePageChange('About')}
                         // This is a conditional (ternary) operator that checks to see if the current page is "Home"
                         // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        className={currentPage === 'About' ? 'nav-link active p-2' : 'nav-link'}
                     >
                         About
                     </a>
@@ -43,7 +43,7 @@ function Navigation() {
                         onClick={() => handlePageChange('Contact')}
                         // This is a conditional (ternary) operator that checks to see if the current page is "Home"
                         // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                        className={currentPage === 'Contact' ? 'nav-link active p-2' : 'nav-link'}
                     >
                         Contact
                     </a>
@@ -54,7 +54,7 @@ function Navigation() {
                         onClick={() => handlePageChange('Portfolio')}
                         // This is a conditional (ternary) operator that checks to see if the current page is "Home"
                         // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                        className={currentPage === 'Portfolio' ? 'nav-link active p-2' : 'nav-link'}
                     >
                         Portfolio
                     </a>
@@ -65,7 +65,7 @@ function Navigation() {
                         onClick={() => handlePageChange('Resume')}
                         // This is a conditional (ternary) operator that checks to see if the current page is "Home"
                         // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        className={currentPage === 'Resume' ? 'nav-link active p-2' : 'nav-link'}
                     >
                         Resume
                     </a>

@@ -83,7 +83,7 @@ p{
   /* position: absolute; */
   left: 35%;
   bottom: 0%;
-  border: var(--dark) solid 5px;
+  border: var(--light) solid 5px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -111,7 +111,8 @@ nav{
 }
 
 .nav-tabs {
-  background-color: white;
+  /* background-color: white; */
+  color: var(--light);
 }
 
 /*repositions the */
