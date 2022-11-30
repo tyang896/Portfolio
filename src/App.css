@@ -6,10 +6,6 @@
   --black: black;
 }
 
-.title {
-  color: var(--light);
-}
-
 body{
   background-color: var(--dark);
   font-family: Arial, Helvetica, sans-serif;
@@ -19,10 +15,21 @@ ul {
   list-style: none;
 }
 
+ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
 p{
   font-size: small;
   color: var(--black);
 }
+
+/* Styling for my name */
+.title {
+  color: var(--light);
+}
+
 
 header{
   width: 100%;
@@ -30,12 +37,14 @@ header{
   background-color: var(--dark);
 }
 
+/* Background image for header */
 .title-name {
   width: 100%;
   background-image: url("../public/images/pexels-pixabay-235994.jpg");
   background-color: white;/*Displays a blank white image if the picture does not appear*/
 }
 
+/* Image on aboutme page */
 #profile-pic{
   left: 35%;
   bottom: 0%;
@@ -50,6 +59,7 @@ header{
   background-position: 60%; 
 }
 
+/* Styling for title of each page */
 h1.title {
   color: var(--dark);
 }
@@ -59,20 +69,16 @@ h1.title {
   color: var(--light);
 }
 
+/* Styling for the list items on resume page */
 main.resume ul li {
   display: block;
-}
-
-ul li {
-  display: inline-block;
-  margin-left: 25px;
 }
 
 a:link {
   text-decoration: none;
 }
 
-
+/* Styling for portfolio page list of programs used */
 span.programs{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size:x-small;
@@ -92,6 +98,7 @@ img:hover{
   transition: 0.6s;
 }
 
+/* Styling for container holding all projects */
 div.projects{
   display: flex;
   flex-wrap: wrap;
@@ -105,6 +112,7 @@ div.projects figure{
   margin: 3px 3px 15px 0px;
 }
 
+/* Styling for the title of a project application */
 figure h2{
   background-color: var(--dark);
   color: var(--light);
@@ -114,6 +122,7 @@ figure h2{
   left: 0px;
 }
 
+/* Styling for a single project container */
 figure{
   margin: 0px;
   position: relative;

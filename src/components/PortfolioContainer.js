@@ -7,8 +7,9 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default function PortfolioContainer() {
+    //Set the page to the About page when the user first loads the website.
     const [currentPage, setCurrentPage] = useState('About');
-    // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+    // renders the page based off of the currentPage value
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;
@@ -22,8 +23,11 @@ export default function PortfolioContainer() {
         return <Resume />;
 
     };
+
+    //Function to set the current page
     const handlePageChange = (page) => setCurrentPage(page);
 
+    //Pass in handlePageChange and currentPage into Header component so it's avaliable for the Navigation component
     return (
         <div>
             <Header handlePageChange={handlePageChange} currentPage={currentPage}/>

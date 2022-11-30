@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation'
 
+//handlePageChange and currentPage are being destructured from PortfolioContainer.js
 export default function Header({handlePageChange, currentPage}){
     return (
         <header>

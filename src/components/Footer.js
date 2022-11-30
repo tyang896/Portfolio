@@ -5,6 +5,7 @@ export default function Footer() {
         <div className="personal-info footer">
         <ul>
             <li>
+                {/* TODO: Add a link to LinkedIn profile */}
                 <a href="https://github.com/tyang896">LinkedIn</a>
             </li>
             <li>

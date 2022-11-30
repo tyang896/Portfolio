@@ -1,17 +1,11 @@
 import React from 'react';
 import Project from '../Project';
-// import globe from '../../../public/images/egaugnal'
-// import soccerImg from '../../images/pexels-aphiwat-chuangchoem-364308.jpg'
-// import notePadImg from '../../images/pexels-jess-bailey-designs-768474.jpg'
-// import quizImg from '../../images/pexels-leeloo-thefirst-5428833.jpg'
-// import weatherImg from '../../images/pexels-josh-hild-2448749.jpg'
-// import scheduleImg from '../../images/organizer-g78abf449a_1920.jpg'
 
 export default function Portfolio() {
+    // my projects
     const egaungal = {
         title: 'Egaungal',
         image: '/images/egaugnal-bg-2.jpg',
-        // image: globe,
         link: 'https://egaugnal.herokuapp.com/',
         programs: 'Full Stack App',
         altDesc: 'Picture of globe'
@@ -67,7 +61,7 @@ export default function Portfolio() {
             <Project title={quizGame.title } image={quizGame.image } link={quizGame.link } programs={quizGame.programs} altDesc={quizGame.altDesc } />
             <Project title={weather.title } image={weather.image } link={weather.link } programs={weather.programs} altDesc={weather.altDesc } />
             <Project title={dailyScheduler.title } image={dailyScheduler.image } link={dailyScheduler.link } programs={dailyScheduler.programs} altDesc={dailyScheduler.altDesc } />
-            {/* Add more projects here: */}
+            {/* Add more future projects here: */}
             </div>
 
         </main>

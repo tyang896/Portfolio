@@ -1,6 +1,6 @@
-//IMPORT REACT
 import React from 'react'
-//CREATE A PROJECT COMPONENT THAT WILL TAKE IN MULTIPLE PROPERTIES: NAME OF PROJECT, IMAGE SOURCE FILE, CODING PROGRAMS
+
+//Destructures items from Portfolio.js 
 export default function Project({title, image, link, programs, altDesc}) {
     return (
         <figure>

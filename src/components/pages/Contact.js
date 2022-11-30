@@ -6,13 +6,13 @@ export default function Contact() {
       <h1 className="title">Contact</h1>
       <form className="form">
         <p>Name:</p>
-        <input name="email" type="email" />
+        <input name="name" type="name" />
         <br />
         <p>Email Address:</p>
-        <input name="userName" type="text" />
+        <input name="email" type="email" />
         <br />
         <p>Message: </p>
-        <textarea name="password" type="password"></textarea>
+        <textarea name="message" type="message"></textarea>
         <div>
           <button type="button" className="btn btn-primary" onClick={""}>Submit</button>
         </div>
@@ -20,3 +20,5 @@ export default function Contact() {
     </main>
   );
 }
+
+//TODO: add functionality to contact section
