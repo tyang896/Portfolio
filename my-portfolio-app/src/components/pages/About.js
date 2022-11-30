@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className="p-3">
+    <main className="p-3">
       <h1 className="title">About Me</h1>
       <div id="profile-pic"></div>
       <p>
@@ -13,6 +13,6 @@ export default function About() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-    </div>
+    </main>
   );
 }

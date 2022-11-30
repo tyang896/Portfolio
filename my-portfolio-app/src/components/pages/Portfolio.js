@@ -12,12 +12,12 @@ export default function Portfolio() {
         altDesc: 'Picture of globe'
     }
     return (
-        <div>
+        <main>
             <h1 className="title">Portfolio Page</h1>
             <div className="projects">
             <Project title={egaungal.title } image={egaungal.image } link={egaungal.link } programs={egaungal.programs} altDesc={egaungal.altDesc } />
             </div>
 
-        </div>
+        </main>
     );
 }

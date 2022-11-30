@@ -45,6 +45,7 @@
   --light: white;
   --line-break: rgb(64, 64, 64);
   --dark: rgb(15 54 69);
+  --black: black;
 }
 
 .title {
@@ -52,7 +53,7 @@
 }
 
 body{
-  background-color: rgb(239, 239, 239);
+  background-color: var(--dark);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -62,10 +63,10 @@ ul {
 
 p{
   font-size: small;
-  color: var(--light)
+  color: var(--black);
 }
 
-.header{
+header{
   /* position: fixed; */
   width: 100%;
   z-index: 1;
@@ -103,12 +104,12 @@ h1.title-name {
 } */
 
 /*positioning for the navigation bar*/
-nav{
+/* nav{
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-size: 20px;
-}
+} */
 
 .nav-tabs {
   /* background-color: white; */
@@ -146,10 +147,7 @@ div.projects{
   justify-content: space-between;
 }
 
-/*---Contact Section---*/
-section.contact{
-    margin-bottom: 16px;
-}
+/*---Footer Section---*/
 
 /*Styling and spacing for the contact section*/
 div.personal-info{
@@ -162,7 +160,7 @@ div.personal-info{
 
 /*Styling for the links*/
 div.personal-info a{
-  color: black;
+  color: var(--light);
   text-align: center;
 }
 
@@ -173,4 +171,9 @@ div.personal-info a:hover{
 div.personal-info ul{
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer {
+  position: absolute;
+  background-color: var(--dark);
 }

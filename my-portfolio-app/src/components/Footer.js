@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <div className="personal-info">
+        <div className="personal-info footer">
         <ul>
             <li>
                 <a href="https://github.com/tyang896">LinkedIn</a>

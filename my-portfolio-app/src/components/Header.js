@@ -1,14 +1,14 @@
 import React from 'react';
 import Navigation from './Navigation'
 
-export default function Header(){
+export default function Header({handlePageChange, currentPage}){
     return (
-        <div className='header'>
+        <header>
             <h1 className='title-name p-3'>
                 Talee Yang
             </h1>
-            <Navigation className='nav'/>
-        </div>
+            <Navigation handlePageChange={handlePageChange} currentPage={currentPage}/>
+        </header>
     )
 }
 
