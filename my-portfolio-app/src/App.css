@@ -84,7 +84,7 @@ header{
   /* position: absolute; */
   left: 35%;
   bottom: 0%;
-  border: var(--light) solid 5px;
+  border: var(--dark) solid 5px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -95,8 +95,8 @@ header{
   background-position: 60%; 
 }
 
-h1.title-name {
-  justify-content: start;
+h1.title {
+  color: var(--dark);
 }
 
 /* Navigation {
@@ -130,9 +130,10 @@ a:link {
 span.programs{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size:x-small;
+  color: var(--light);
 }
 
-/*Image styling for the other applications*/
+/*Image styling for applications*/
 img.application{
   height: 200px;
   width: 100%;
@@ -140,11 +141,38 @@ img.application{
   object-fit: cover;
 }
 
+img:hover{
+  filter: brightness(125%);
+  transition: 0.6s;
+}
+
 div.projects{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
+
+/*Sizing and spacing for each individual application in the work section*/
+div.projects figure{
+  width:48.7%;
+  margin: 3px 3px 15px 0px;
+}
+
+figure h2{
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+}
+
+figure{
+  margin: 0px;
+  position: relative;
+  border: var(--dark) solid 10px;
+  border-width: medium;
 }
 
 /*---Footer Section---*/
