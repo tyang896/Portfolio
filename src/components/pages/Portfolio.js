@@ -1,12 +1,17 @@
 import React from 'react';
-import Project from '../Project'
+import Project from '../Project';
+// import globe from '../../../public/images/egaugnal'
+// import soccerImg from '../../images/pexels-aphiwat-chuangchoem-364308.jpg'
+// import notePadImg from '../../images/pexels-jess-bailey-designs-768474.jpg'
+// import quizImg from '../../images/pexels-leeloo-thefirst-5428833.jpg'
+// import weatherImg from '../../images/pexels-josh-hild-2448749.jpg'
+// import scheduleImg from '../../images/organizer-g78abf449a_1920.jpg'
 
-//TODO: Import Project.js file
-//TODO: 
 export default function Portfolio() {
     const egaungal = {
         title: 'Egaungal',
-        image: 'images/egaugnal-bg-2.jpg',
+        image: '/images/egaugnal-bg-2.jpg',
+        // image: globe,
         link: 'https://egaugnal.herokuapp.com/',
         programs: 'Full Stack App',
         altDesc: 'Picture of globe'

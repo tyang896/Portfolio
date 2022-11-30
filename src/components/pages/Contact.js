@@ -14,7 +14,7 @@ export default function Contact() {
         <p>Message: </p>
         <textarea name="password" type="password"></textarea>
         <div>
-          <button type="button" className="btn btn-primary" onClick="">Submit</button>
+          <button type="button" className="btn btn-primary" onClick={""}>Submit</button>
         </div>
       </form>
     </main>
