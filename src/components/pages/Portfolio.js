@@ -3,6 +3,14 @@ import Project from '../Project';
 
 export default function Portfolio() {
     // my projects
+
+    const primaMateria = {
+        title: 'Prima Materia',
+        image: '/images/pexels-anthony-)-139641.jpg',
+        link: 'https://prima-materia-86.herokuapp.com/',
+        programs: 'Full Stack MERN App',
+        altDesc: ''
+    }
     const egaungal = {
         title: 'Egaungal',
         image: '/images/egaugnal-bg-2.jpg',
@@ -55,6 +63,7 @@ export default function Portfolio() {
         <main className="p-3">
             <h1 className="title">Portfolio</h1>
             <div className="projects">
+            <Project title={primaMateria.title } image={primaMateria.image } link={primaMateria.link } programs={primaMateria.programs} altDesc={primaMateria.altDesc } />
             <Project title={egaungal.title } image={egaungal.image } link={egaungal.link } programs={egaungal.programs} altDesc={egaungal.altDesc } />
             <Project title={sportEvents.title } image={sportEvents.image } link={sportEvents.link } programs={sportEvents.programs} altDesc={sportEvents.altDesc } />
             <Project title={devBlog.title } image={devBlog.image } link={devBlog.link } programs={devBlog.programs} altDesc={devBlog.altDesc } />
