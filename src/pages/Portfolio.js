@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../Project';
+import Project from '../components/Project';
 
 export default function Portfolio() {
     // my projects
@@ -9,7 +9,7 @@ export default function Portfolio() {
         image: '/images/pexels-anthony-)-139641.jpg',
         link: 'https://prima-materia-86.herokuapp.com/',
         programs: 'Full Stack MERN App',
-        altDesc: ''
+        altDesc: 'Picture of Statue'
     }
     const egaungal = {
         title: 'Egaungal',
