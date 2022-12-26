@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.65a01810.css",
-    "main.js": "/Portfolio/static/js/main.b78f78cd.js",
+    "main.css": "/Portfolio/static/css/main.44880f7b.css",
+    "main.js": "/Portfolio/static/js/main.538e29d2.js",
     "static/js/787.3c86a6c9.chunk.js": "/Portfolio/static/js/787.3c86a6c9.chunk.js",
     "static/media/IMG_6790.JPG": "/Portfolio/static/media/IMG_6790.6aba9afe9eea3de082e2.JPG",
+    "static/media/pexels-leeloo-thefirst-5428833.jpg": "/Portfolio/static/media/pexels-leeloo-thefirst-5428833.0305b4889d54296c9b6b.jpg",
+    "static/media/pexels-anthony-139641.jpg": "/Portfolio/static/media/pexels-anthony-139641.e3b0101d6157db6ae490.jpg",
+    "static/media/pexels-josh-hild-2448749.jpg": "/Portfolio/static/media/pexels-josh-hild-2448749.d3d40f56c5980d52e550.jpg",
+    "static/media/egaugnal-bg-2.jpg": "/Portfolio/static/media/egaugnal-bg-2.aa86a21e7eb98bd8cfeb.jpg",
+    "static/media/pexels-jess-bailey-designs-768474.jpg": "/Portfolio/static/media/pexels-jess-bailey-designs-768474.8f94a1d798138d264b84.jpg",
+    "static/media/pexels-aphiwat-chuangchoem-364308.jpg": "/Portfolio/static/media/pexels-aphiwat-chuangchoem-364308.614a5e126dfad8872707.jpg",
+    "static/media/organizer-g78abf449a_1920.jpg": "/Portfolio/static/media/organizer-g78abf449a_1920.3953d21fa6782917d8b5.jpg",
     "static/media/pexels-pixabay-235994.jpg": "/Portfolio/static/media/pexels-pixabay-235994.654d1e31f7abcfc21f42.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.65a01810.css.map": "/Portfolio/static/css/main.65a01810.css.map",
-    "main.b78f78cd.js.map": "/Portfolio/static/js/main.b78f78cd.js.map",
+    "main.44880f7b.css.map": "/Portfolio/static/css/main.44880f7b.css.map",
+    "main.538e29d2.js.map": "/Portfolio/static/js/main.538e29d2.js.map",
     "787.3c86a6c9.chunk.js.map": "/Portfolio/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a01810.css",
-    "static/js/main.b78f78cd.js"
+    "static/css/main.44880f7b.css",
+    "static/js/main.538e29d2.js"
   ]
 }
