@@ -1,19 +1,27 @@
 import React from 'react';
 import Project from '../components/Project';
+import primaMateriaImg from '../images/pexels-anthony-139641.jpg'
+import egaungalImg from '../images/egaugnal-bg-2.jpg'
+import sportEventsImg from '../images/pexels-aphiwat-chuangchoem-364308.jpg'
+import devBlogImg from '../images/pexels-jess-bailey-designs-768474.jpg'
+import quizGameImg from '../images/pexels-leeloo-thefirst-5428833.jpg'
+import weatherImg from '../images/pexels-josh-hild-2448749.jpg'
+import schedulerImg from '../images/organizer-g78abf449a_1920.jpg'
 
 export default function Portfolio() {
     // my projects
 
     const primaMateria = {
         title: 'Prima Materia',
-        image: '/images/pexels-anthony-)-139641.jpg',
+        image: primaMateriaImg,
         link: 'https://prima-materia-86.herokuapp.com/',
         programs: 'Full Stack MERN App',
         altDesc: 'Picture of Statue'
     }
+
     const egaungal = {
         title: 'Egaungal',
-        image: '/images/egaugnal-bg-2.jpg',
+        image: egaungalImg,
         link: 'https://egaugnal.herokuapp.com/',
         programs: 'Full Stack App',
         altDesc: 'Picture of globe'
@@ -21,7 +29,7 @@ export default function Portfolio() {
 
     const sportEvents = {
         title: 'Sport Events',
-        image: 'images/pexels-aphiwat-chuangchoem-364308.jpg',
+        image: sportEventsImg,
         link: 'https://jackwarrick.github.io/Sport-Events-Lookup/',
         programs: 'HTML/CSS/Javascript',
         altDesc: 'Picture of a soccerball'
@@ -29,7 +37,7 @@ export default function Portfolio() {
 
     const devBlog = {
         title: 'Dev Blog',
-        image: 'images/pexels-jess-bailey-designs-768474.jpg',
+        image: devBlogImg,
         link: 'https://young-refuge-12429.herokuapp.com/',
         programs: 'Full Stack App',
         altDesc: 'Picture of notebook'
@@ -37,7 +45,7 @@ export default function Portfolio() {
 
     const quizGame = {
         title: 'Quiz Game',
-        image: 'images/pexels-leeloo-thefirst-5428833.jpg',
+        image: quizGameImg,
         link: 'https://tyang896.github.io/javascript-fundamentals/',
         programs: 'HTML/CSS/Javascript',
         altDesc: 'Picture of question mark'
@@ -45,7 +53,7 @@ export default function Portfolio() {
 
     const weather = {
         title: 'Weather',
-        image: 'images/pexels-josh-hild-2448749.jpg',
+        image: weatherImg,
         link: 'https://tyang896.github.io/weather-forecast/',
         programs: 'HTML/CSS/Javascript',
         altDesc: 'Picture of sky with raindrops'
@@ -53,7 +61,7 @@ export default function Portfolio() {
 
     const dailyScheduler = {
         title: 'Daily Scheduler',
-        image: 'images/organizer-g78abf449a_1920.jpg',
+        image: schedulerImg,
         link: 'https://tyang896.github.io/daily-scheduler/',
         programs: 'HTML/CSS/Javascript',
         altDesc: 'Picture of flower and planner'
