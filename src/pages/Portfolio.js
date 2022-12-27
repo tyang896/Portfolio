@@ -68,7 +68,7 @@ export default function Portfolio() {
     }
 
     return (
-        <main className="p-3">
+        <main className="p-3 mb-5">
             <h1 className="title">Portfolio</h1>
             <div className="projects">
             <Project title={primaMateria.title } image={primaMateria.image } link={primaMateria.link } programs={primaMateria.programs} altDesc={primaMateria.altDesc } />
@@ -80,7 +80,6 @@ export default function Portfolio() {
             <Project title={dailyScheduler.title } image={dailyScheduler.image } link={dailyScheduler.link } programs={dailyScheduler.programs} altDesc={dailyScheduler.altDesc } />
             {/* Add more future projects here: */}
             </div>
-
         </main>
     );
 }
