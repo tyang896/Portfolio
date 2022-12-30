@@ -30,13 +30,39 @@ export default function Contact() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
+    if (!name && !email && !message) {
+      setErrorMessage('Form cannot be left blank');
+      return;
+    }
+
+    if (!name && !email) {
+      setErrorMessage('Name and email cannot be left blank')
+      return;
+    }
+
+    if (!name && !message) {
+      setErrorMessage('Name and message cannot be left blank')
+      return;
+    }
+
+    if (!email && !message) {
+      setErrorMessage('Email and message cannot be left blank')
+      return;
+    }
+
     if (!name) {
       setErrorMessage('Name cannot be left blank')
       return;
     }
 
     // If email address is invalid, display error message
-    if (!validateEmail(email)) {
+    if (!validateEmail(email) && !email) {
+      setErrorMessage('Email cannot be left blank');
+      return;
+    }
+
+    //If there is an email and the email is invalid
+    if (!validateEmail(email) && email) {
       setErrorMessage('Email is invalid');
       return;
     }
@@ -90,7 +116,7 @@ export default function Contact() {
         <div>
           <button
             type="button"
-            className="btn btn-primary submitBtn"
+            className="btn btn-primary submitBtn fw-bold"
             onClick={handleFormSubmit}>Submit</button>
         </div>
       </form>
