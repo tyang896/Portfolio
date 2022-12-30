@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   h1: {
-    'text-align': 'center'
+    'textAlign': 'center'
   }
 }
 export default function About() {
@@ -12,8 +12,14 @@ export default function About() {
       <div className='d-flex justify-content-center'>
         <div id="profile-pic"></div>
       </div>
-      <p className="about-me-desc">
-        Hello! My name is Talee Yang and I am currently attending the University of Minnesota coding bootcamp. In the past I have worked in the bio-pharmaceuticals industry as a manufacturing associate. I am very passionate about learning and I have an interest in coding and design. Once I graduate from the coding bootcamp, I look forward to starting a new career as a web developer.
+      <p className="about-me-desc p-5">
+        Hello my name is Talee Yang and I am a junior full-stack web developer. 
+        I recently earned my certificate from The University of Minnesota coding bootcamp. 
+        In the past I have worked in the bio-pharmaceuticals industry as a manufacturing associate.
+        
+        I am very passionate about learning and I have an interest in coding and design. 
+        In my free time I enjoy spending quality time with my family. I am also a big movie lover, and 
+        someone who enjoys art.
       </p>
     </main>
   );
