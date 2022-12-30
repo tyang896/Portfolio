@@ -61,7 +61,6 @@ header{
 /* Image on aboutme page */
 #profile-pic{
   position: relative;
-  left: 35%;
   bottom: 0%;
   border: var(--dark) solid 5px;
   width: 300px;

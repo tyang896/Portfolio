@@ -77,6 +77,8 @@ export default function Contact() {
     setEmail('');
     setMessage('');
     setErrorMessage('');
+
+    //TODO: create method to handle submitting message
   }
 
   return (
