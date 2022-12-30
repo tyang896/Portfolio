@@ -3,7 +3,13 @@
   --light: white;
   --line-break: rgb(64, 64, 64);
   --dark: rgb(15 54 69);
+  --hover-dark: rgb(26, 90, 116);
   --black: black;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:600;
 }
 
 body{
@@ -21,7 +27,7 @@ ul li {
 }
 
 p{
-  font-size: small;
+  /* font-size: small; */
   color: var(--black);
 }
 
@@ -82,6 +88,16 @@ h1.title {
 
 .nav-tabs {
   color: var(--light);
+}
+
+/* Styling for contact page */
+button.submitBtn {
+  background: var(--dark);
+  color: white;
+}
+
+button.submitBtn:hover {
+  background-color: var(--hover-dark);
 }
 
 /* Styling for the list items on resume page */

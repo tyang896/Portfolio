@@ -1,6 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers'
 
+const styles = {
+  message: {
+    height: '211px',
+  },
+}
 
 export default function Contact() {
   const [email, setEmail] = useState('');
@@ -13,7 +18,7 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === 'name'){
+    if (inputType === 'name') {
       setName(inputValue);
     } else if (inputType === 'email') {
       setEmail(inputValue);
@@ -25,13 +30,13 @@ export default function Contact() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    if(!name){
+    if (!name) {
       setErrorMessage('Name cannot be left blank')
       return;
     }
 
     // If email address is invalid, display error message
-    if (!validateEmail(email)){
+    if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
       return;
     }
@@ -45,40 +50,48 @@ export default function Contact() {
     setName('')
     setEmail('');
     setMessage('');
+    setErrorMessage('');
   }
 
   return (
     <main className="p-3">
       <h1 className="title">Contact</h1>
-      <form className="form">
-        <p>Name:</p>
-        <input 
-        name="name" 
-        type="name" 
-        placeholder="name"
-        value={name}
-        onChange={handleInputChange}
+      <form className="form-box mb-3">
+        <p className="mb-0">Name:</p>
+        <input
+          name="name"
+          type="name"
+          placeholder="John Doe"
+          value={name}
+          onChange={handleInputChange}
+          className="w-25 mb-3 p-1"
         />
         <br />
-        <p>Email Address:</p>
-        <input 
-        name="email" 
-        type="email"
-        placeholder="email"
-        value={email}
-        onChange={handleInputChange}
-         />
+        <p className="mb-0">Email Address:</p>
+        <input
+          name="email"
+          type="email"
+          placeholder="example@email.com"
+          value={email}
+          onChange={handleInputChange}
+          className="w-25 mb-3 p-1"
+        />
         <br />
-        <p>Message: </p>
-        <textarea 
-        name="message" 
-        type="message"
-        placeholder="message"
-        value={message}
-        onChange={handleInputChange}>
+        <p className="mb-0">Message: </p>
+        <textarea
+          name="message"
+          type="message"
+          placeholder="Description"
+          value={message}
+          onChange={handleInputChange}
+          className="w-25 mb-3 p-2"
+          style={styles.message}>
         </textarea>
         <div>
-          <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
+          <button
+            type="button"
+            className="btn btn-primary submitBtn"
+            onClick={handleFormSubmit}>Submit</button>
         </div>
       </form>
       {errorMessage && (
@@ -89,5 +102,3 @@ export default function Contact() {
     </main>
   );
 }
-
-//TODO: add functionality to contact section
