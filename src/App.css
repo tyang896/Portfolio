@@ -68,6 +68,12 @@ header{
   background-position: 60%; 
 }
 
+/* p tag for about me description */
+.about-me-desc{
+  font-family: 'Montserrat', sans-serif;
+  font-size:larger;
+}
+
 /* Styling for title of each page */
 h1.title {
   color: var(--dark);
