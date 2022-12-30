@@ -30,7 +30,7 @@ p{
   color: var(--light);
 }
 
-
+/* Styling for navbar */
 header{
   width: 100%;
   z-index: 1;
@@ -39,13 +39,22 @@ header{
 
 /* Background image for header */
 .title-name {
+  font-family: 'Montserrat', sans-serif;
   width: 100%;
-  background-image: url("../src/images/pexels-pixabay-235994.jpg");
-  background-color: white;/*Displays a blank white image if the picture does not appear*/
+  /* background-image: url("../src/images/pexels-eberhard-grossgasteiger-2086271.jpg"); */
+  text-align: center;
+  background: linear-gradient(to right, var(--dark) 0%, var(--light) 100%);
+  font-weight: bold;
+  color: white;
+  /* background-position-y: 100%; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* background-color: white;Displays a blank white image if the picture does not appear */
 }
 
 /* Image on aboutme page */
 #profile-pic{
+  position: relative;
   left: 35%;
   bottom: 0%;
   border: var(--dark) solid 5px;

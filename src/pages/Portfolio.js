@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
-import primaMateriaImg from '../images/pexels-anthony-139641.jpg'
+import primaMateriaImg from '../images/pexels-enzo-abramo-1304237.jpg'
 import egaungalImg from '../images/egaugnal-bg-2.jpg'
 import sportEventsImg from '../images/pexels-aphiwat-chuangchoem-364308.jpg'
 import devBlogImg from '../images/pexels-jess-bailey-designs-768474.jpg'
