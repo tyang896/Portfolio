@@ -2,7 +2,6 @@ import React from 'react';
 import Project from '../components/Project';
 import primaMateriaImg from '../images/pexels-enzo-abramo-1304237.jpg'
 import egaungalImg from '../images/egaugnal-bg-2.jpg'
-import sportEventsImg from '../images/pexels-aphiwat-chuangchoem-364308.jpg'
 import devBlogImg from '../images/pexels-jess-bailey-designs-768474.jpg'
 import quizGameImg from '../images/pexels-leeloo-thefirst-5428833.jpg'
 import weatherImg from '../images/pexels-josh-hild-2448749.jpg'
@@ -25,14 +24,6 @@ export default function Portfolio() {
         link: 'https://egaugnal.herokuapp.com/',
         programs: 'Full Stack App',
         altDesc: 'Picture of globe'
-    }
-
-    const sportEvents = {
-        title: 'Sport Events',
-        image: sportEventsImg,
-        link: 'https://jackwarrick.github.io/Sport-Events-Lookup/',
-        programs: 'HTML/CSS/Javascript',
-        altDesc: 'Picture of a soccerball'
     }
 
     const devBlog = {
@@ -73,7 +64,6 @@ export default function Portfolio() {
             <div className="projects">
             <Project title={primaMateria.title } image={primaMateria.image } link={primaMateria.link } programs={primaMateria.programs} altDesc={primaMateria.altDesc } />
             <Project title={egaungal.title } image={egaungal.image } link={egaungal.link } programs={egaungal.programs} altDesc={egaungal.altDesc } />
-            <Project title={sportEvents.title } image={sportEvents.image } link={sportEvents.link } programs={sportEvents.programs} altDesc={sportEvents.altDesc } />
             <Project title={devBlog.title } image={devBlog.image } link={devBlog.link } programs={devBlog.programs} altDesc={devBlog.altDesc } />
             <Project title={quizGame.title } image={quizGame.image } link={quizGame.link } programs={quizGame.programs} altDesc={quizGame.altDesc } />
             <Project title={weather.title } image={weather.image } link={weather.link } programs={weather.programs} altDesc={weather.altDesc } />
