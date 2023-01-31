@@ -7,7 +7,7 @@ const styles = {
 }
 export default function About() {
   return (
-    <main className="p-3">
+    <main className="p-3 mb-5">
       <h1 className="title" style={styles.h1}>About Me</h1>
       <div className='d-flex justify-content-center'>
         <div id="profile-pic"></div>
@@ -18,8 +18,7 @@ export default function About() {
         In the past I have worked in the bio-pharmaceuticals industry as a manufacturing associate.
         
         I am very passionate about learning and I have an interest in coding and design. 
-        In my free time I enjoy spending quality time with my family. I am also a big movie lover, and 
-        someone who enjoys art.
+        In my free time I enjoy spending quality time with my family. I am also a big movie and art lover.
       </p>
     </main>
   );

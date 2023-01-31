@@ -82,7 +82,7 @@ export default function Contact() {
   }
 
   return (
-    <main className="p-3">
+    <main className="p-3 mb-5">
       <h1 className="title">Contact</h1>
       <form className="form-box mb-3">
         <p className="mb-0">Name:</p>
