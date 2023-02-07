@@ -21,7 +21,7 @@ export default function Portfolio() {
     const egaungal = {
         title: 'Egaungal',
         image: egaungalImg,
-        link: 'https://egaugnal.herokuapp.com/',
+        link: 'https://tranquil-crag-62768.herokuapp.com/',
         programs: 'Full Stack App',
         altDesc: 'Picture of globe'
     }
