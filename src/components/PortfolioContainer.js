@@ -4,7 +4,6 @@ import Contact from '../pages/Contact'
 import Portfolio from '../pages/Portfolio'
 import Resume from '../pages/Resume'
 import Header from './Header';
-import Footer from './Footer';
 
 export default function PortfolioContainer() {
     //Set the page to the About page when the user first loads the website.
