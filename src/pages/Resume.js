@@ -5,7 +5,7 @@ export default function Resume() {
     <main className="p-3 mb-5 resume">
       <h1 className="title">Resume</h1>
       {/* Link to download resume */}
-      <a href="./Talee_Resume.pdf" download="Talee_Resume">Download</a>
+      <a href="./Talee_Yang_Resume.pdf" download="Talee_Yang_Resume">Download</a>
       <h3>Front-end Proficiencies</h3>
       <ul>
         <li>HTML</li>
