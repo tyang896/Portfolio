@@ -145,7 +145,7 @@ div.projects figure{
 }
 
 /* Styling for the title of a project application */
-figure h2{
+#project-description{
   background-color: var(--dark);
   color: var(--light);
   padding: 5px 5px 5px 5px;
