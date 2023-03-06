@@ -13,7 +13,7 @@ To install program dependencies for this application, run the following command:
 ## Usage
 To use this repo, run npm install and the application should automatically open in your default browser. You should be greeted with a homepage that looks like the following: 
 
-![A screenshot of my portfolio website](./Screenshot%202022-11-30%20at%2015-24-48%20React%20App.png)
+![A screenshot of my portfolio website](./Screenshot%202023-03-06%20at%2002-41-09%20Talee%20Yang.png)
 
 To view a live demonstration of the application, click on the following link: https://tyang896.github.io/Portfolio/
 
