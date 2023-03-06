@@ -5,10 +5,10 @@ export default function Footer() {
         <div className="personal-info footer">
         <ul>
             <li>
-                <a href="https://linkedin.com/in/talee-yang-49293aa5">LinkedIn</a>
+                <a href="https://linkedin.com/in/talee-yang-49293aa5" target="_blank" rel="noreferrer noopener">LinkedIn</a>
             </li>
             <li>
-                <a href="https://github.com/tyang896">GitHub</a>
+                <a href="https://github.com/tyang896" target="_blank" rel="noreferrer noopener">GitHub</a>
             </li>
             <li>
                 <a href="mailto:talee.yng@gmail.com">talee.yng@gmail.com</a>
