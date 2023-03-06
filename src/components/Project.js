@@ -4,7 +4,7 @@ import React from 'react'
 export default function Project({title, image, link, programs, altDesc}) {
     return (
         <figure>
-            <a href={link}>
+            <a href={link} target="_blank" rel="noreferrer noopener">
             <img src={image} alt={altDesc} className="application"></img>
             </a>
             <h2>{title}<br /><span className="programs">{programs}</span></h2>

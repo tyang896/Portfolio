@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import primaMateriaImg from '../images/pexels-enzo-abramo-1304237.jpg'
-import egaungalImg from '../images/egaugnal-bg-2.jpg'
+import egaugnalImg from '../images/egaugnal-bg-2.jpg'
 import devBlogImg from '../images/pexels-jess-bailey-designs-768474.jpg'
 import quizGameImg from '../images/pexels-leeloo-thefirst-5428833.jpg'
 import weatherImg from '../images/pexels-josh-hild-2448749.jpg'
@@ -18,9 +18,9 @@ export default function Portfolio() {
         altDesc: 'Picture of Statue'
     }
 
-    const egaungal = {
-        title: 'Egaungal',
-        image: egaungalImg,
+    const egaugnal = {
+        title: 'Egaugnal',
+        image: egaugnalImg,
         link: 'https://tranquil-crag-62768.herokuapp.com/',
         programs: 'Full Stack App',
         altDesc: 'Picture of globe'
@@ -63,7 +63,7 @@ export default function Portfolio() {
             <h1 className="title">Portfolio</h1>
             <div className="projects">
             <Project title={primaMateria.title } image={primaMateria.image } link={primaMateria.link } programs={primaMateria.programs} altDesc={primaMateria.altDesc } />
-            <Project title={egaungal.title } image={egaungal.image } link={egaungal.link } programs={egaungal.programs} altDesc={egaungal.altDesc } />
+            <Project title={egaugnal.title } image={egaugnal.image } link={egaugnal.link } programs={egaugnal.programs} altDesc={egaugnal.altDesc } />
             <Project title={devBlog.title } image={devBlog.image } link={devBlog.link } programs={devBlog.programs} altDesc={devBlog.altDesc } />
             <Project title={quizGame.title } image={quizGame.image } link={quizGame.link } programs={quizGame.programs} altDesc={quizGame.altDesc } />
             <Project title={weather.title } image={weather.image } link={weather.link } programs={weather.programs} altDesc={weather.altDesc } />
