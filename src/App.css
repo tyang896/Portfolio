@@ -126,8 +126,39 @@ img.application{
 /*Actions when user hovers over a portfolio project*/
 img:hover{
   filter: brightness(125%);
-  /* filter: blur(5px); */
   transition: 0.6s;
+}
+
+
+.project-container:hover{
+  /* filter: brightness(1) ; */
+  /* opacity: 0.3;
+  color: transparent;
+  transition: 0.3s; */
+}
+
+/* Styling for the title of a project application */
+#project-description{
+  /* visibility: hidden; */
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+}
+
+/* .project-container:hover #project-description{
+  visibility: visible;
+  opacity: 1;
+} */
+
+a#gitHub-link{
+  color: var(--light);
+}
+
+a#gitHub-link:hover{
+  color: gray;
 }
 
 /* Styling for container holding all projects */
@@ -144,15 +175,6 @@ div.projects figure{
   margin: 3px 3px 15px 0px;
 }
 
-/* Styling for the title of a project application */
-#project-description{
-  background-color: var(--dark);
-  color: var(--light);
-  padding: 5px 5px 5px 5px;
-  position: absolute;
-  bottom: 15px;
-  left: 0px;
-}
 
 /* Styling for a single project container */
 figure{
