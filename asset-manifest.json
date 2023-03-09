@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5b1be8ab.css",
-    "main.js": "/Portfolio/static/js/main.4c27eed0.js",
+    "main.css": "/Portfolio/static/css/main.14896caf.css",
+    "main.js": "/Portfolio/static/js/main.53c68629.js",
     "static/js/787.3c86a6c9.chunk.js": "/Portfolio/static/js/787.3c86a6c9.chunk.js",
     "static/media/IMG_6790.JPG": "/Portfolio/static/media/IMG_6790.6aba9afe9eea3de082e2.JPG",
     "static/media/pexels-leeloo-thefirst-5428833.jpg": "/Portfolio/static/media/pexels-leeloo-thefirst-5428833.0305b4889d54296c9b6b.jpg",
@@ -11,12 +11,12 @@
     "static/media/pexels-jess-bailey-designs-768474.jpg": "/Portfolio/static/media/pexels-jess-bailey-designs-768474.8f94a1d798138d264b84.jpg",
     "static/media/organizer-g78abf449a_1920.jpg": "/Portfolio/static/media/organizer-g78abf449a_1920.3953d21fa6782917d8b5.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.5b1be8ab.css.map": "/Portfolio/static/css/main.5b1be8ab.css.map",
-    "main.4c27eed0.js.map": "/Portfolio/static/js/main.4c27eed0.js.map",
+    "main.14896caf.css.map": "/Portfolio/static/css/main.14896caf.css.map",
+    "main.53c68629.js.map": "/Portfolio/static/js/main.53c68629.js.map",
     "787.3c86a6c9.chunk.js.map": "/Portfolio/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b1be8ab.css",
-    "static/js/main.4c27eed0.js"
+    "static/css/main.14896caf.css",
+    "static/js/main.53c68629.js"
   ]
 }
