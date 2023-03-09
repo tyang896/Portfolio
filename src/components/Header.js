@@ -18,6 +18,20 @@ export default function Header({ handlePageChange, currentPage }) {
                 <div id="mySidebar" class="sidebar">
                     <button class="closebtn" onClick={closeNav}>&times;</button>
                     <Navigation handlePageChange={handlePageChange} currentPage={currentPage} />
+                    <ul className="personal-links">
+                        <li>
+                            <a href="https://linkedin.com/in/talee-yang-49293aa5" target="_blank" rel="noreferrer noopener" className="footer-link link-light">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tyang896" target="_blank" rel="noreferrer noopener" className="footer-link link-light">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="mailto:talee.yng@gmail.com" className="footer-link link-light">talee.yng@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+19526889231" className="footer-link link-light">952.688.9231</a>
+                        </li>
+                    </ul>
                 </div>
                 <div className="p-2 text-center row">
                     <div className="d-inline text-start col">
