@@ -43,6 +43,12 @@ header{
   background-color: var(--dark);
 }
 
+.openbtn {
+  background-color: var(--dark);
+  color: var(--light);
+  border: none;
+}
+
 /* Background image for header */
 .title-name {
   font-family: 'Montserrat', sans-serif;
@@ -216,4 +222,34 @@ div.personal-info ul{
   bottom: 0;
   width: 100%;
   background-color: var(--dark);
+}
+
+@media screen and (min-width: 768px) {
+  .sm-device {
+    display: none;
+  }
+}
+
+/*Adjusts how the work section is displayed when the screen size is 992px or less*/
+@media screen and (max-width: 425px) {
+  figure {
+      min-width: 100%;
+  }
+
+  input {
+    min-width: 100%;
+  }
+
+  textarea {
+    min-width: 100%;
+  }
+
+  .lg-device {
+    display:none;
+  }
+
+  /* .footer-link {
+    font-size: small;
+  } */
+
 }
