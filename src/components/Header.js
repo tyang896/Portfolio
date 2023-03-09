@@ -24,7 +24,7 @@ export default function Header({ handlePageChange, currentPage }) {
                         <button className="openbtn" onClick={openNav}>&#9776;</button>
                     </div>
                     <div className="col-8">
-                        <h2 className="text-light text-end me-3 pt-2">Talee Yang</h2>
+                        <h2 className="text-light text-end me-3 pt-2" onClick={() => handlePageChange('About')}>Talee Yang</h2>
                     </div>
                 </div>
             </div>
