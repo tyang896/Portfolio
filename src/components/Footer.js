@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="lg-device personal-info footer">
                 <ul>
                     <li>
-                        <a href="https://linkedin.com/in/talee-yang-49293aa5" target="_blank" rel="noreferrer noopener" className="footer-link">LinkedIn</a>
+                        <a href="https://linkedin.com/in/taleeyang" target="_blank" rel="noreferrer noopener" className="footer-link">LinkedIn</a>
                     </li>
                     <li>
                         <a href="https://github.com/tyang896" target="_blank" rel="noreferrer noopener" className="footer-link">GitHub</a>
