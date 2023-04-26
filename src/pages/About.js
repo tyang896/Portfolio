@@ -13,9 +13,13 @@ export default function About() {
         <div id="profile-pic"></div>
       </div>
       <p className="about-me-desc p-5">
-        Hi there, I'm Talee Yang! Building the web one line of code at a time. A Junior Full-Stack Web Developer who loves to create and solve problems. 
-        Former Bio-Pharmaceuticals Manufacturing Associate. University of Minnesota Coding Bootcamp alum.
-        Passionate about learning and exploring new things. I make the most of my free time with family, movies, art and coding. Always on a quest for knowledge.
+      As a Junior full stack web developer, I possess expertise in building responsive and dynamic 
+      websites using various tools such as Javascript, HTML, CSS, React, and NodeJS. I have a strong interest in web development and take 
+      pleasure in keeping up with the latest technologies. On top of my technical abilities, I consider 
+      myself to be a creative person who spends my free time sketching and enjoying the outdoors. 
+      Above all else, I cherish the time I get to spend with my loved ones and family. I am a hardworking 
+      and dedicated developer who is committed to producing high-quality work and achieving exceptional 
+      results.
       </p>
     </main>
   );
